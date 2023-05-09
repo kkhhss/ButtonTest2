@@ -19,6 +19,9 @@ class MainActivity : AppCompatActivity() {
         btn1.setOnClickListener {
             text1.text = btn1.text
         }
+        btn2.setOnClickListener {
+            text1.text = btn2.text
+        }
 
     }
 }
